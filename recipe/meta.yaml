@@ -1,0 +1,17 @@
+package:
+  name: reactivatetest
+  version: develop
+
+about:
+  summary: Test whether reactivate works
+
+requirements:
+  run:
+    - python
+
+source:
+  - path: prefix
+    folder: prefix
+
+build:
+  noarch: python
